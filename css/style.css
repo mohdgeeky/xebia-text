@@ -1,0 +1,59 @@
+body{
+	padding-bottom: 20px;
+	font-family: 'Slabo 27px', serif;
+	background-color: #fafafa
+}
+.navbar{
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08)
+}
+.navbar li a{	
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.navbar-brand{
+	font-size: 22px
+}
+.second-layer{
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    bottom: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.analytics-box-left{
+	width: 100%;
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	background-color: #fff;
+	padding:20px;
+}
+.analytics-box-right{
+	padding:10px;
+	width: 100%;
+	height: auto;
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	background-color: #fff;	
+}
+#doughnut{
+	width: 100%
+}
+.upload-photo{
+	height: 150px;
+	width: 150px;
+	background-color: #eee
+}
+.full-analytics li{
+	font-size: 20px
+}
+.team-list li img{
+	width:50px;
+	height: 50px;
+	float: left
+}
+.minimize-button{
+	font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
